@@ -27,3 +27,29 @@ Thumbs.db
 
 # Logs
 *.log
+
+# SQLite database (runtime file)
+*.db
+history.db
+
+# Generated/temporary processing directories
+extracted_frames/*
+!extracted_frames/.gitkeep
+temp_frames/*
+!temp_frames/.gitkeep
+temp_faces/*
+!temp_faces/.gitkeep
+
+# Processed numpy data (large, generated from preprocessing)
+processed_data/
+
+# Training dataset (large, requires separate download)
+data/
+
+# User-uploaded videos at runtime
+uploads/*
+!uploads/.gitkeep
+
+# Large test videos (>10 MB) — keep only small demo videos
+test_videos/o1.mp4
+test_videos/o2.mp4
